@@ -1,0 +1,43 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  font-family: $serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.right-nav > ul > li {
+  font-family: $serif;
+  font-size: 14px;
+  margin-right: 3px;
+  text-transform: uppercase;
+}
+
+// Gives gear
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background: $light-gray;
+}
+
+.left-nav span {
+  margin: 0px 25px 0px 10px;
+
+}
+
+.right-nav i {
+  font-size: 20px;
+}

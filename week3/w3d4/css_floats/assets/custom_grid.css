@@ -1,0 +1,16 @@
+/* PUT FLUID GRID CODE HERE */
+.left_col {
+  width: 20%;
+  float: left;
+}
+
+.right_col {
+  width: 77.7%;
+  float: left;
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}

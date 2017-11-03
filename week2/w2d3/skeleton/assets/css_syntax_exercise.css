@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.ingredients-list {
+  list-style: square inside;
+}
+
+ol {
+    list-style: lower-greek;
+}
+
+/* Question: What is the difference between what I have on the following line
+and doing:  header > img    */
+/* Is it because I only want the first one (aka the immediate one?)*/
+header img {
+  width: 100px
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*I did this originally, but looking at the solution, it is better practice
+to put this background color in the body
+html {
+  background-color: yellow;
+}*/
+
+
+/*Unsure how this is working, ask for clearification*/
+.user_review {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: cursive;
+}
